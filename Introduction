@@ -1,0 +1,43 @@
+Python
+
+Usually installed as /usr/local/bin/python3.7
+Alternative location /usr/local/python
+
+Launcher's
+
+Read from tty to be in mode interactive
+mode prompts
+>>> primary
+... secondary
+
+
+Interpreter prints welcomes:
+
+C:\Users\jalons4x>python
+Python 3.7 (default, Sep 16 2015, 09:25:04)
+[GCC 4.8.2] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+
+---can start:
+
+$py
+$python
+
+
+---Can exit:
+
+>>>quit()
+>>>exit()
+
+First commands
+
+>>>print ("Hello!")
+Hello!
+
+
+>>>the_world_is_flat = True
+>>>if the_world_is_flat:
+...   print("Be careful not to fall off!")
+...
+Be careful not to fall off!
