@@ -1,0 +1,48 @@
+Strings
+
+
+Python can also manipulate strings, which can be expressed in several ways. 
+They can be enclosed in single quotes ('...') or double quotes ("...") with the same result \ can be used to escape 
+
+
+>>> 'spam eggs'  # single quotes
+'spam eggs'
+>>> 'doesn\'t'  # use \' to escape the single quote...
+"doesn't"
+>>> "doesn't"  # ...or use double quotes instead
+"doesn't"
+>>> '"Yes," they said.'
+'"Yes," they said.'
+>>> "\"Yes,\" they said."
+'"Yes," they said.'
+>>> '"Isn\'t," they said.'
+'"Isn\'t," they said.'
+
+
+The print() function produces a more readable output, by omitting the enclosing quotes and by printing escaped
+and special characters:
+
+
+>>> '"Isn\'t," they said.'
+'"Isn\'t," they said.'
+>>> print('"Isn\'t," they said.')
+"Isn't," they said.
+>>> s = 'First line.\nSecond line.'  # \n means newline
+>>> s  # without print(), \n is included in the output
+'First line.\nSecond line.'
+>>> print(s)  # with print(), \n produces a new line
+First line.
+Second line.
+
+
+If you don’t want characters prefaced by \ to be interpreted as special characters, you can use raw strings
+by adding an r before the first quote:
+
+
+>>> print('C:\some\name')  # here \n means newline!
+C:\some
+ame
+>>> print(r'C:\some\name')  # note the r before the quote
+C:\some\name
+
+
